@@ -15,5 +15,6 @@ const book2 = {
     }
 }
 
-
+//  thats not a good idea to make new object every time whenver wee need same structure
+// use constructor
 console.log(book2.getSummery());
