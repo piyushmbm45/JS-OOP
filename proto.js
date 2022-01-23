@@ -18,10 +18,17 @@ Book.prototype.getAge = function () {
     return year;
 }
 
+// revise / change year
+Book.prototype.reviseYear = function (year) {
+    this.year = year;
+    this.revised = true;
+}
 
 const book1 = new Book("The Power of Habit", "John Dow", "2015");
 const book2 = new Book("The Power of Thinking", "Jane Dow", "2016");
 
 console.log(book1);
 console.log(book1.getSummery());
-console.log(book2.getAge());
+console.log(book2);
+book2.reviseYear('2018')
+console.log(book2);
