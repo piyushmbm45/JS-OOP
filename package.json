@@ -1,0 +1,23 @@
+{
+  "name": "js-oop",
+  "version": "1.0.0",
+  "description": "",
+  "main": "constructor.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/piyushmbm45/JS-OOP.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/piyushmbm45/JS-OOP/issues"
+  },
+  "homepage": "https://github.com/piyushmbm45/JS-OOP#readme",
+  "dependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
